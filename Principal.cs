@@ -12,5 +12,30 @@ namespace Proyecto1_semana_3
         {
 
         }
+        static void menu_interno()
+        {
+
+        }
+        static void programa_if()
+        {
+
+        }
+        static void programa_switch()
+        {
+
+        }
+        static void programa_for()
+        {
+
+        }
+        static void programa_while()
+        {
+
+        }
+        static void programa_dowhile()
+        {
+
+        }
     }
+    
 }
