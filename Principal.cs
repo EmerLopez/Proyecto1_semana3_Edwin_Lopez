@@ -8,24 +8,27 @@ namespace Proyecto1_semana_3
 {
     class Principal
     {
+        
         static void Main(string[] args)
         {
             System.Console.WriteLine("Programa Principal");
             System.Console.WriteLine("Primer Programa");
 
             System.Console.ReadKey();
-
             int repetir;
+            repetir = 1;
+
             //menu_interno();
 
             //System.Console.WriteLine("Ingrese la opcion: ");
             //repetir = Int32.Parse(Console.ReadLine());
-            repetir = 1;
+
 
             while (repetir == 1)
             {
                 Console.Clear();
                 menu_interno();
+                Console.Clear();
                 System.Console.WriteLine("Ingrese 1 para repetir menú");
                 System.Console.WriteLine("Ingrese 2 para salir ");
                 repetir = Int32.Parse(Console.ReadLine());
@@ -70,10 +73,16 @@ namespace Proyecto1_semana_3
                 case 5:
                     programa_dowhile();
                     break;
+                default:
+                    Console.WriteLine("opción no valida");
+                    Console.WriteLine("Ingrese otra opcion");
+                    break;
+
             }
 
             System.Console.ReadKey();
-           
+
+            
             //Console.Clear();
         }
         static void programa_if()
