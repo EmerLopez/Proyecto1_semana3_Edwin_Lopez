@@ -35,7 +35,41 @@ namespace Proyecto1_semana_3
         }
         static void menu_interno()
         {
+            string opcion;
+            int opcionint;
 
+            System.Console.WriteLine("Menu Principal");
+            System.Console.WriteLine("Ejemplo If");
+            System.Console.WriteLine("Ejemplo Switch");
+            System.Console.WriteLine("Ejemplo For");
+            System.Console.WriteLine("Ejemplo Wor");
+            System.Console.WriteLine("Ejemplo Do While");
+            System.Console.WriteLine("Selecciona tu opcion: ");
+            opcion = Console.ReadLine();
+            opcionint = Int32.Parse(opcion);
+
+
+            switch (opcionint)
+            {
+                case 1:
+                    System.Console.WriteLine("Aqui llamo el programa1");
+                    break;
+
+                case 2:
+                    System.Console.WriteLine("Aqui llamo el programa2");
+                    break;
+
+                case 3:
+                    System.Console.WriteLine("Aqui llamo el programa3");
+                    break;
+
+                case 4:
+                    System.Console.WriteLine("Opcion no disponible");
+                    break;
+
+            }
+
+            System.Console.ReadKey();
         }
         static void programa_if()
         {
