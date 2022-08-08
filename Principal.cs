@@ -29,9 +29,10 @@ namespace Proyecto1_semana_3
             {
                 menu_interno();
 
-
-
             }
+            System.Console.WriteLine("Ingrese 1 para repetir menú");
+            System.Console.WriteLine("Ingrese 2 para salir ");
+            repetir = Int32.Parse(Console.ReadLine());
         }
         static void menu_interno()
         {
@@ -39,11 +40,11 @@ namespace Proyecto1_semana_3
             int opcionint;
 
             System.Console.WriteLine("Menu Principal");
-            System.Console.WriteLine("Ejemplo If");
-            System.Console.WriteLine("Ejemplo Switch");
-            System.Console.WriteLine("Ejemplo For");
-            System.Console.WriteLine("Ejemplo Wor");
-            System.Console.WriteLine("Ejemplo Do While");
+            System.Console.WriteLine("1.Ejemplo If");
+            System.Console.WriteLine("2.Ejemplo Switch");
+            System.Console.WriteLine("3.Ejemplo For");
+            System.Console.WriteLine("4.Ejemplo Wor");
+            System.Console.WriteLine("5.Ejemplo Do While");
             System.Console.WriteLine("Selecciona tu opcion: ");
             opcion = Console.ReadLine();
             opcionint = Int32.Parse(opcion);
@@ -52,21 +53,23 @@ namespace Proyecto1_semana_3
             switch (opcionint)
             {
                 case 1:
-                    System.Console.WriteLine("Aqui llamo el programa1");
+                    programa_if();
                     break;
 
                 case 2:
-                    System.Console.WriteLine("Aqui llamo el programa2");
+                    programa_switch();
                     break;
 
                 case 3:
-                    System.Console.WriteLine("Aqui llamo el programa3");
+                    programa_for();
                     break;
 
                 case 4:
-                    System.Console.WriteLine("Opcion no disponible");
+                    programa_while();
                     break;
-
+                case 5:
+                    programa_dowhile();
+                    break;
             }
 
             System.Console.ReadKey();
