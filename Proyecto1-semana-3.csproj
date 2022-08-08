@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejemplo_swicth.cs" />
+    <Compile Include="Ejmeplo-if.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Principal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
