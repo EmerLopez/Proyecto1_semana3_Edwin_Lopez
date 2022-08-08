@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Proyecto1_semana_3
 {
-    class Program
+    class Principal
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
