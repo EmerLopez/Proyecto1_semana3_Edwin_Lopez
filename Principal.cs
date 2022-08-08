@@ -16,20 +16,23 @@ namespace Proyecto1_semana_3
             System.Console.ReadKey();
 
             int repetir;
-            menu_interno();
+            //menu_interno();
 
-            System.Console.WriteLine("Ingrese la opcion: ");
-            repetir = Int32.Parse(Console.ReadLine());
-
+            //System.Console.WriteLine("Ingrese la opcion: ");
+            //repetir = Int32.Parse(Console.ReadLine());
+            repetir = 1;
 
             while (repetir == 1)
             {
+                Console.Clear();
                 menu_interno();
+                System.Console.WriteLine("Ingrese 1 para repetir menú");
+                System.Console.WriteLine("Ingrese 2 para salir ");
+                repetir = Int32.Parse(Console.ReadLine());
 
             }
-            System.Console.WriteLine("Ingrese 1 para repetir menú");
-            System.Console.WriteLine("Ingrese 2 para salir ");
-            repetir = Int32.Parse(Console.ReadLine());
+           
+
         }
         static void menu_interno()
         {
@@ -70,7 +73,8 @@ namespace Proyecto1_semana_3
             }
 
             System.Console.ReadKey();
-            Console.Clear();
+           
+            //Console.Clear();
         }
         static void programa_if()
         {
