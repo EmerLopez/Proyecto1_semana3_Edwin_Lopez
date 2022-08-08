@@ -16,10 +16,7 @@ namespace Proyecto1_semana_3
             System.Console.ReadKey();
 
             int repetir;
-
-
             menu_interno();
-
 
             System.Console.WriteLine("Ingrese la opcion: ");
             repetir = Int32.Parse(Console.ReadLine());
@@ -73,6 +70,7 @@ namespace Proyecto1_semana_3
             }
 
             System.Console.ReadKey();
+            Console.Clear();
         }
         static void programa_if()
         {
