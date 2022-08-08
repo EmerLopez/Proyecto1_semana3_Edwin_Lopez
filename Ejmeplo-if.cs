@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto1_semana_3
 {
-    class Menu
+    class Ejmeplo_if
     {
-
     }
 }
