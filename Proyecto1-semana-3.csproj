@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Do_While.cs" />
+    <Compile Include="ejemplo_For.cs" />
     <Compile Include="Ejemplo_swicth.cs" />
     <Compile Include="Ejmeplo-if.cs" />
     <Compile Include="Menu.cs" />
