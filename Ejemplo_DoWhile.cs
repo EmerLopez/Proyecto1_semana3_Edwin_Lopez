@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Proyecto1_semana_3
 {
-    public class Ejemplo_swicth
+    class Ejemplo_DoWhile
     {
-       
 
     }
 }

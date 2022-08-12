@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Proyecto1_semana_3
 {
-    class Ejmeplo_if
+    public class Ejemplo_if
     {
     }
 }
