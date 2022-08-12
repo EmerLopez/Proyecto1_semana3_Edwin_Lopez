@@ -17,13 +17,7 @@ namespace Proyecto1_semana_3
             System.Console.ReadKey();
             int repetir;
            
-            //menu_interno();
-
-            //System.Console.WriteLine("Ingrese la opcion: ");
-            //repetir = Int32.Parse(Console.ReadLine());
-
-
-            // (repetir == 1)
+            
             do
             {
                 Console.Clear();
@@ -46,7 +40,7 @@ namespace Proyecto1_semana_3
             System.Console.WriteLine("1.Ejemplo If");
             System.Console.WriteLine("2.Ejemplo Switch");
             System.Console.WriteLine("3.Ejemplo For");
-            System.Console.WriteLine("4.Ejemplo Wor");
+            System.Console.WriteLine("4.Ejemplo While");
             System.Console.WriteLine("5.Ejemplo Do While");
             System.Console.WriteLine("Selecciona tu opcion: ");
             opcion = Console.ReadLine();
@@ -83,7 +77,7 @@ namespace Proyecto1_semana_3
             System.Console.ReadKey();
 
             
-            //Console.Clear();
+           
         }
         static void programa_if()
         {

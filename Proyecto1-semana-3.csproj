@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Proyecto1_semana_3.Principal2</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,7 +51,6 @@
     <Compile Include="Ejemplo_switch.cs" />
     <Compile Include="Ejemplo_if.cs" />
     <Compile Include="Ejemplo_While.cs" />
-    <Compile Include="Menu.cs" />
     <Compile Include="Principal2.cs" />
     <Compile Include="Principal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

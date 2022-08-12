@@ -44,7 +44,7 @@ namespace Proyecto1_semana_3
             System.Console.WriteLine("1.Ejemplo If");
             System.Console.WriteLine("2.Ejemplo Switch");
             System.Console.WriteLine("3.Ejemplo For");
-            System.Console.WriteLine("4.Ejemplo Wor");
+            System.Console.WriteLine("4.Ejemplo While");
             System.Console.WriteLine("5.Ejemplo Do While");
             System.Console.WriteLine("Selecciona tu opcion: ");
             opcion = Console.ReadLine();
