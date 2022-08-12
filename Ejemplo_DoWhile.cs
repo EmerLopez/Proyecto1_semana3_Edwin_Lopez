@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Proyecto1_semana_3
 {
-    class Ejemplo_DoWhile
+    public class Ejemplo_DoWhile
     {
-
+        public static void estructura_Dowhile()
+        {
+            System.Console.WriteLine("Dowhile externo");
+        }
     }
 }

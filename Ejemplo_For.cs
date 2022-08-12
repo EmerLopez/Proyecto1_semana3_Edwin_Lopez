@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Proyecto1_semana_3
 {
-    class Ejemplo_For
+    public class Ejemplo_For
     {
+        public static void estructura_for()
+        {
+            System.Console.WriteLine("for externo");
+        }
     }
 }

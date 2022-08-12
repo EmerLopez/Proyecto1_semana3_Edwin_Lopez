@@ -21,13 +21,7 @@ namespace Proyecto1_semana_3
             System.Console.ReadKey();
             int repetir;
            
-            //menu_interno();
-
-            //System.Console.WriteLine("Ingrese la opcion: ");
-            //repetir = Int32.Parse(Console.ReadLine());
-
-
-            // (repetir == 1)
+           
             do
             {
                 Console.Clear();
@@ -60,27 +54,21 @@ namespace Proyecto1_semana_3
             switch (opcionint)
             {
                 case 1:
-
                     estructura_if();
-
                     break;
 
                 case 2:
-
                     estructura_switch();
                     break;
 
                 case 3:
-
                     estructura_for();
                     break;
 
                 case 4:
-
                     estructura_While();
                     break;
                 case 5:
-
                     estructura_Dowhile();
                     break;
 
@@ -92,29 +80,8 @@ namespace Proyecto1_semana_3
 
             System.Console.ReadKey();
 
-            
-            //Console.Clear();
         }
-        static void programa_if()
-        {
-            System.Console.WriteLine("Aqui llamo el ejemplo if");
-        }
-        static void programa_switch()
-        {
-            System.Console.WriteLine("Aqui llamo el ejemplo switch");
-        }
-        static void programa_for()
-        {
-            System.Console.WriteLine("Aqui llamo el ejemplo for");
-        }
-        static void programa_while()
-        {
-            System.Console.WriteLine("Aqui llamo el ejemplo while");
-        }
-        static void programa_dowhile()
-        {
-            System.Console.WriteLine("Aqui llamo el ejemplo dowhile");
-        }
+       
     }
     
 }

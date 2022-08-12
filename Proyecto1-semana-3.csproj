@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Ejemplo_DoWhile.cs" />
     <Compile Include="Ejemplo_For.cs" />
-    <Compile Include="Ejemplo_swicth.cs" />
+    <Compile Include="Ejemplo_switch.cs" />
     <Compile Include="Ejemplo_if.cs" />
     <Compile Include="Ejemplo_While.cs" />
     <Compile Include="Menu.cs" />
