@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Proyecto1_semana_3.Ejemplo_if;
-using static Proyecto1_semana_3.Ejemplo_switch;
-using static Proyecto1_semana_3.Ejemplo_For;
-using static Proyecto1_semana_3.Ejemplo_DoWhile;
-using static Proyecto1_semana_3.Ejemplo_While;
-namespace Proyecto1_semana_3
+using static Proyecto1_semana3_Edwin_Lopez.Ejemplo_if;
+using static Proyecto1_semana3_Edwin_Lopez.Ejemplo_switch;
+using static Proyecto1_semana3_Edwin_Lopez.Ejemplo_For;
+using static Proyecto1_semana3_Edwin_Lopez.Ejemplo_DoWhile;
+using static Proyecto1_semana3_Edwin_Lopez.Ejemplo_While;
+namespace Proyecto1_semana3_Edwin_Lopez 
 {
     class Principal2
     {

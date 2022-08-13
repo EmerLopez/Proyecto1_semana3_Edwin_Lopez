@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Proyecto1_semana_3
+namespace Proyecto1_semana3_Edwin_Lopez 
 {
     public class Ejemplo_While
     {

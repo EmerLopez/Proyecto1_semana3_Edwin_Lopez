@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Proyecto1_semana_3.Principal2</StartupObject>
+    <StartupObject>Proyecto1_semana3_Edwin_Lopez.Principal</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
